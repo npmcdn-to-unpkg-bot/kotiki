@@ -1,0 +1,77 @@
+.sect {
+    margin-left: 75px;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    width: 174px;
+}
+
+.lolo {
+    width: 158px;
+    height: 274px;
+    display: block;
+}
+
+p.title_card.ng-binding {
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.project {
+    margin: 0 auto;
+    display: table;
+    margin-top: 54px;
+    margin-bottom: 31px;
+}
+
+
+}
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.img-thumbnail:hover{
+    cursor: pointer;
+}
+
+#popUpDialog-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#popUpDialog {
+  position: fixed;
+  width: 250px;
+  left: 50%;
+  margin-left: -125px;
+  margin-top: 5%;
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+}
+#popUpDialog .content {
+  margin-bottom: 15px;
+  text-align: center;
+}
+#popUpDialog .buttons-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.content p{
+    color: #000;
+}
+
+
+
+

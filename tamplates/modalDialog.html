@@ -1,0 +1,20 @@
+
+<div id="popUpDialog-bg" ng-show="showModalDialog" > 
+         <div id="popUpDialog" > 
+          <div class="content" >
+            <li ng-repeat="proj in projs | filter:{id_card:card.id}">
+                <p>{{proj.hdr_shrt}}</p>
+                <p>{{proj.desc_shrt}}</p>
+                <p>{{proj.desc_ful}}</p>
+            </li>
+          </div> 
+          <div class="clearfix buttons-container"> 
+            <div class="pull-left"> 
+              <button class="btn btn-primary" ">Да</button> 
+            </div> 
+            <div class="pull-right"> 
+              <button class="btn btn-warning" ng-click="closeModalDialog()">Нет</button> 
+            </div> 
+          </div> 
+          </div> 
+        </div>
